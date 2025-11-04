@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haleema Profile</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    .profile-header {
+      background: linear-gradient(135deg, #007bff, #3399ff);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+    }
+
+    .profile-header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-color: #fff;
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+
+    .profile-header h1 {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+    .profile-header h3 {
+      font-weight: 400;
+      font-size: 16px;
+      opacity: 0.9;
+    }
+
+    .profile-header p {
+      font-size: 14px;
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+
+    .info-section {
+      background: white;
+      max-width: 400px;
+      margin: -40px auto 20px auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 25px;
+    }
+
+    .info-item {
+      display: flex;
+      align-items: center;
+      margin: 12px 0;
+    }
+
+    .info-item span {
+      font-size: 18px;
+      color: #007bff;
+      margin-right: 10px;
+    }
+
+    .info-item p {
+      font-size: 14px;
+      color: #444;
+    }
+
+    section {
+      max-width: 500px;
+      background: white;
+      margin: 20px auto;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+      color: black;
+      border-bottom: 2px solid #007bff;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    section p, section li {
+      color: #555;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+      outline: none;
+    }
+
+    form button {
+      width: 100%;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 8px;
+      font-size: 15px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-header">
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Profile Icon" />
+    <h1>Haleema Muhyyudin</h1>
+    <h3>Bachelor of Science in Information Technology</h3>
+    <p>Passionate about creative web design and IT innovation.</p>
+  </div>
+
+  <div class="info-section">
+    <div class="info-item">
+      <span>📧</span>
+      <p>bsf23004148@ue.edu.pk</p>
+    </div>
+    <div class="info-item">
+      <span>🆔</span>
+      <p>Roll No: BSF23004148</p>
+    </div>
+    <div class="info-item">
+      <span>🏫</span>
+      <p>Department: Information Technology</p>
+    </div>
+    <div class="info-item">
+      <span>👩‍🎓</span>
+      <p>Gender: Female</p>
+    </div>
+    <div class="info-item">
+      <span>📍</span>
+      <p>Punjab, Pakistan</p>
+    </div>
+  </div>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I am an IT student passionate about technology, design, and problem-solving.
+      I love creating clean, user-friendly web interfaces using HTML, CSS, and UI/UX
+      design principles. Currently, I am learning how to build interactive and modern
+      web pages while improving my technical skills.
+    </p>
+  </section>
+
+  <section class="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Python</li>
+      <li>Excel</li>
+      <li>UI/UX Design (Beginner)</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="3" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</body>
+</html>
